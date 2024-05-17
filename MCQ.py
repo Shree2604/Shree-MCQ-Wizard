@@ -5,8 +5,9 @@ import random
 from dotenv import load_dotenv
 from text import select_text_from_pdf
 import google.generativeai as genai
+
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
 
 def generate_mcq_questions_and_answers_from_pdf(pdf_file_path, difficulty, num_questions):
     # Extract text from PDF
