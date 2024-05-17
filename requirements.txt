@@ -1,6 +1,7 @@
 ﻿altair==5.3.0
 annotated-types==0.6.0
 asttokens==2.4.1
+python-dotenv>=0.19.0
 attrs==23.2.0
 backcall==0.2.0
 beautifulsoup4==4.12.3
