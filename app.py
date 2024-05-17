@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 from MCQ import generate_mcq_questions_and_answers_from_pdf
 
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 load_dotenv()
 
 def main():
