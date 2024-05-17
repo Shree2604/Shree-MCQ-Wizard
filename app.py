@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import google.generativeai as genai
 from dotenv import load_dotenv
 from MCQ import generate_mcq_questions_and_answers_from_pdf
 
