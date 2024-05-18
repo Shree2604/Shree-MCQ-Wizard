@@ -108,5 +108,10 @@ def main():
             del st.session_state["submitted"]
             del st.session_state["user_answers"]
 
+            # Add button to return to the home page
+            if st.button("Back to Home"):
+                st.session_state.clear()  # Clear session state
+                st.experimental_rerun()  # Restart the app
+
 if __name__ == "__main__":
     main()
